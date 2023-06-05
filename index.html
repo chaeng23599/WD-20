@@ -7,6 +7,7 @@
     <title>철길 마을</title>
     <link rel="stylesheet" href="./css/common.css">
     <script src="./script/jquery-1.12.4.js"></script>
+    <!-- <script src="./script/common.js"></script> -->
 </head>
 <body>
     <div class="wrap">
@@ -55,7 +56,7 @@
                             </ul>
                         </li>
                     </ul>
-            </div>
+                </div>
             </div>  
 
             <!-- content -->
@@ -63,21 +64,25 @@
                 <div class="banner">
                     <div class="photo"><img src="./images/banner.jpg" alt="배너"></div>
                     <div class="text_box">
-                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quas.</p>
-                        <div class="span"></div>
+                        <h2>Lorem ipsum dolor sit</h2>
+                        <p>Lorem, ipsum sit amet consectetur adipisicing elit. Ipsum, quas.</p>
                     </div>
+                    <div class="arrow"><a href="#"></a></div>
                 </div>
                 <div class="notice">
-                    <h2>공지사항</h2>
+                    <div class="title">
+                        <h2>공지사항</h2>
+                    </div>
                     <ul>
-                        <li><a href="#">Lorem ipsum dolor sit amet. <span>2023-10-20</span></a></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet. <span>2023-10-20</span></a></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet. <span>2023-10-20</span></a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a> <span>2023-10-20</span></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a> <span>2023-10-20</span></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a> <span>2023-10-20</span></li>
                     </ul>
                 </div>
                 <div class="gallery">
-                    <h2>갤러리</h2>
+                    <div class="title">
+                        <h2>갤러리</h2>
+                    </div>
                     <ul>
                         <li>
                             <a href="#">
@@ -159,15 +164,9 @@
             </div>
         </div>
     </div>
+
     <script>
-        $('.gnb li').hover(
-            function(){ 
-                $(this).find('ul').stop().show()
-            },
-            function(){
-                $(this).find('ul').fadeOut()
-            }
-        )
+
     </script>
 </body>
 </html>
